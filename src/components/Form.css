@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap');
+
+.page-2{
+    height:100vh;
+}
+.sms-id{
+    margin-left:500px;
+    margin-top:100px;
+    width:100px;
+    size:100px;
+    font-family: 'Poppins';
+    background-color:white;
+}
+.sms{
+    margin-left:500px;
+    margin-top:10px;
+    width:100px;
+    font-family: 'Poppins';
+    background-color:white;
+}
+.submit{
+    margin-left:500px;
+    margin-top:10px;
+    width:100px;
+    font-family: 'Poppins';
+    background-color:white;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap');
+*{
+    background-color:rgb(20, 23, 20); ;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    font-family: 'Poppins';
+}
+.hg{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    color:white;
+}
+.hg li{
+    margin:5px;
+}
+.spamify{
+    color:rgb(9, 88, 9);
+}
