@@ -16,27 +16,13 @@ function Main(){
               <p>and here</p>
             </div>
           </div>
-          <img src='./images/landing.png' alt='' />
+          
+          {/* <img src='./images/blob.png' alt='' className='blob' /> */}
+          <img src='./images/mainpic.png' alt='' className='mainpic' /> 
         </div>
-        <button className="get-started" href=".page-2">GET STARTED</button>
+        <button className="get-started">GET STARTED</button>
       </div>
-
-
-      <div className="page-2">
-        <h1 className='head'>Check for Spam</h1>
-        <form>
-         <label htmlFor="name">Name:</label>
-		      <input type="text" id="name" name="name" placeholder="Enter your name" />
-
-		      <label htmlFor="message">Message:</label>
-		      <textarea id="message" name="message" placeholder="Enter your message"></textarea>
-
-		      <button type="submit">Submit</button>
-        </form>
-      </div>      
-      
     </>
-
   );
 }
 export default Main;
