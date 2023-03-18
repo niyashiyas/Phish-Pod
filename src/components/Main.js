@@ -25,14 +25,11 @@ function Main(){
         </div>
         <button className="get-started">GET STARTED</button>
       </div>
-<<<<<<< HEAD
-=======
       <Form />
       <Footer />
       
             
       
->>>>>>> 228508e8a1d4c8e4036511c53292df166970ea99
     </>
   );
 }
