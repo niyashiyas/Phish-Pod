@@ -13,10 +13,7 @@ function Main() {
               <h1>HERE GOES THE TITLE</h1>
             </div>
             <div>
-              <p>write something here</p>
-            </div>
-            <div>
-              <p>and here</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
             </div>
           </div>
 
