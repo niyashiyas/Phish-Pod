@@ -16,9 +16,9 @@ const Footer = () => {
         <a href='#'>Glossary</a>
       </div>
       <div className='footerSocials'>
-        <a href='#'><FontAwesomeIcon icon={faFacebookF} /></a>
-        <a href='#'><FontAwesomeIcon icon={faGithubAlt} /></a>
-        <a href='#'><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href='https://facebook.com'><FontAwesomeIcon icon={faFacebookF} /></a>
+        <a href='https://github.com/niyashiyas/Phish-Pod'><FontAwesomeIcon icon={faGithubAlt} /></a>
+        <a href='https://instagram.com'><FontAwesomeIcon icon={faInstagram} /></a>
       </div>
     </div>
   )
