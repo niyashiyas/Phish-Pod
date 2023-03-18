@@ -11,21 +11,24 @@
   
 }
 .footerAbout {
-  width: 55%;
   display: flex;
   flex-direction: column;
-  margin: 0 20px;
+  width: 33%;
+}
+#main-tag{
+  color: #11d9c5;
+  font-weight: 600;
+font-size: 48px;
 }
 .p-footer{
-  width: 50%;
+  width: 80%;
 }
 a{
   text-decoration: none;
   color: white;
-
 }
 .footerButton{
-  width: 20%;
+  width: 45%;
   background: linear-gradient(258.88deg, #11d9c5 5.48%, #027373 69.85%);
   border: 2px solid #11d9c5;
   border-radius: 10px;
@@ -37,19 +40,18 @@ a{
 
 }
 .footerLinks{
-  width: 15%;
   display: flex;
+  flex-direction: row;
+  width: 33%;
   justify-content: space-around;
   align-items: center;
 }
 .footerSocials{
-  margin-right: 50px;
-  width: 20%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  width: 33%;
+  justify-content: space-around;
   align-items: center;
-  float: right;
   
 }
  
