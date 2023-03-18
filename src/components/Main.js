@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import './Main.css'
 import Form from './Form';
+import Footer from './Footer/Footer';
+
 function Main(){
   return(
     <>
@@ -26,7 +28,7 @@ function Main(){
 <<<<<<< HEAD
 =======
       <Form />
-
+      <Footer />
       
             
       

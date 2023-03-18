@@ -1,0 +1,19 @@
+.footerBox {
+  background: rgba(237, 242, 244, 0.058);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.footerAbout {
+  display: flex;
+  flex-direction: column;
+}
+.footerButton {
+  width: 8%;
+  background: linear-gradient(258.88deg, #11d9c5 5.48%, #027373 69.85%);
+  border: 2px solid #11d9c5;
+  border-radius: 10px;
+  padding: 8px 16px;
+  color: white;
+}

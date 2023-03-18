@@ -9,10 +9,6 @@ function App() {
       <div>
         <Navbar />
         <Main />                     
-        {/* ⬆️ Landing Page ⬆️*/}
-        {/* <Navbar />
-        <Form />   */}
-        {/* ⬆️ Form Page ⬆️ */}                       
       </div>
     </>
   );
