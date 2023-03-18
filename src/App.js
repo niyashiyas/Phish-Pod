@@ -9,6 +9,7 @@ function App() {
     <>
       <div>
         <Navbar />
+        <Main />
         <Glossary />                    
       </div>
     </>
