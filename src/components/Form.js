@@ -5,7 +5,6 @@ function Form() {
   const [result, setResult] = useState("");
   const emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g;
   const urlPattern =
-    // /((https?|ftp):\/\/)?([a-z]+\.)?[a-z0-9]+\.[a-z]{2,}(\.[a-z]{2,})?(\/[a-z0-9#?&=.\/-]+)?/g;
     /https?:\/\/(www\.)?[-a-zA-Z0-9@:%.\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%\+.~#?&//=]*)/g;
   const phonePattern = /(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}/g;
 
