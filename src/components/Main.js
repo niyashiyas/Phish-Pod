@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import './Main.css'
 import Form from './Form';
+import Footer from './Footer/Footer';
 function Main(){
   return(
     <>
@@ -24,7 +25,7 @@ function Main(){
         <button className="get-started">GET STARTED</button>
       </div>
       <Form />
-
+      <Footer />
       
             
       
