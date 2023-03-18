@@ -23,26 +23,25 @@ function Form() {
         pp[0] = pp[0].substring(3, 13);
       }
     }
-    console.log("pp: " + pp);
-    console.log("up: " + up);
-    console.log("ep: " + ep);
+    console.log("Phone No : " + pp);
+    console.log("URL : " + up);
+    console.log("Email : " + ep);
     //setResult(`${ep}`);
     //console.log(result);
 
-    console.log("hi");
     axios
       .get(
         `https://emailverification.whoisxmlapi.com/api/v2?apiKey=at_8zxGo4RMsNLKBYE6nmSRgPSq0qz7S&emailAddress=${ep[0]}`
       )
       .then((response) => {
         console.log(response);
-        console.log("Disposible: " + response.data.disposableCheck);
-        console.log("SMTP: " + response.data.smtpCheck);
+        console.log("Disposable Email : " + response.data.disposableCheck);
+        console.log("Email SMTP Test : " + response.data.smtpCheck);
         if (
           response.data.disposableCheck === "true" ||
           response.data.smtpCheck === "false"
         ) {
-          console.log("The Email doesnt exist");
+          console.log("Email found malicious");
         } else {
           console.log("Email not found malicious");
         }
@@ -55,8 +54,8 @@ function Form() {
       )
       .then((res) => {
         console.log(res);
-        console.log("Carrier: " + res.data.carrier);
-        console.log("Number Valid: " + res.data.valid);
+        console.log("Carrier : " + res.data.carrier);
+        console.log("Number Valid : " + res.data.valid);
       });
 
     //URL
@@ -66,7 +65,14 @@ function Form() {
       )
       .then((r) => {
         console.log(r);
-        console.log(r.data.data.report.risk_score);
+        console.log("URL Risk Score : " + r.data.data.report.risk_score.result);
+        console.log(
+          "Detect Malicious URL : " +
+            r.data.data.report.domain_blacklist.detections
+        );
+        console.log(
+          "URL Redirection : " + r.data.data.report.redirection.found
+        );
       });
   };
 
@@ -76,8 +82,8 @@ function Form() {
 
   return (
     <>
-    <div>
-      {/* <h1>Check for Spam</h1>
+      <div>
+        {/* <h1>Check for Spam</h1>
     </div>
     <div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -105,13 +111,41 @@ function Form() {
         <h1>Check for Spam</h1>
         <div className="checkSpam">
           <div className="checkContent">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
             <br />
             <form>
-              <input type="text" id="name" name="name" placeholder="Sender ID"/><br/><br />
-              <textarea id="message" name="message" rows="6" cols="50" placeholder="SMS"></textarea><br/>
-              <button type="submit" className="submitSpamButton">Submit</button>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Sender ID"
+              />
+              <br />
+              <br />
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="50"
+                placeholder="SMS"
+                onChange={(e) => {
+                  setFormData(e.target.value);
+                }}
+              ></textarea>
+              <br />
             </form>
+            <button
+              style={{width: "100px"}}
+              className="submitSpamButton"
+              onClick={tProcess}
+            >
+              Submit
+            </button>
           </div>
           <div className="checkHelp"></div>
         </div>
