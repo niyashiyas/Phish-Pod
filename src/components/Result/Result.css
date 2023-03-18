@@ -11,7 +11,8 @@
   align-items: center;
 }
 img{
-
+  fill: none;
+  background-color: transparent;
 }
 .reportButton {
   color: #011c40;

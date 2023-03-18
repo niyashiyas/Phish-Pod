@@ -8,8 +8,8 @@ const Footer = () => {
     <div className='footerBox'>
       <div className='footerAbout'>
         <a href='#'>Phish-Pod</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        <button className='footerButton'>Get Started!</button>
+        <div className='p-footer'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></div>
+        <button className='footerButton'><a href='#'>Get Started!</a></button>
       </div>
       <div className='footerLinks'>
         <a href='#'>Home</a>

@@ -1,19 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap');
+
 .footerBox {
-  background: rgba(237, 242, 244, 0.058);
   border-radius: 20px;
   color: white;
   display: flex;
-  justify-content: space-between;
-}
-.footerAbout {
+  justify-content: flex-start; 
+  align-content: end;
+  padding: 2.5rem;
+  font-family: 'Poppins';
+}.footerAbout {
   display: flex;
   flex-direction: column;
+  margin: 0 20px;
 }
-.footerButton {
-  width: 8%;
+.p-footer{
+  width: 50%;
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+.footerButton{
+  width: 20%;
   background: linear-gradient(258.88deg, #11d9c5 5.48%, #027373 69.85%);
   border: 2px solid #11d9c5;
   border-radius: 10px;
   padding: 8px 16px;
   color: white;
 }
+.footerButton a{
+  background: linear-gradient(258.88deg, #11d9c5 5.48%, #027373 69.85%);
+
+}
+.footerLinks{
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerSocials{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  
+}
+ 
