@@ -23,8 +23,9 @@ function Main() {
         <button className="get-started">GET STARTED</button>
       </div>
       <Form />
-      <Footer />
+      
       <Result num="10"/>
+      <Footer />
     </>
   );
 }
