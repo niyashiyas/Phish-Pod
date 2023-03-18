@@ -1,9 +1,9 @@
-import React,{useState} from 'react'
-import './Main.css'
-import Form from './Form';
-import Footer from './Footer/Footer';
-function Main(){
-  return(
+import React, {useState} from "react";
+import "./Main.css";
+import Form from "./Form";
+import Footer from "./Footer/Footer";
+function Main() {
+  return (
     <>
       <div className="page-1">
         <div className="main-content">
@@ -18,17 +18,14 @@ function Main(){
               <p>and here</p>
             </div>
           </div>
-          
+
           {/* <img src='./images/blob.png' alt='' className='blob' /> */}
-          <img src='./images/mainpic.png' alt='' className='mainpic' /> 
+          <img src="./images/mainpic.png" alt="" className="mainpic" />
         </div>
         <button className="get-started">GET STARTED</button>
       </div>
       <Form />
       <Footer />
-      
-            
-      
     </>
   );
 }
