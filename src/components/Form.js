@@ -77,7 +77,7 @@ function Form() {
   return (
     <>
     <div>
-      <h1>Check for Spam</h1>
+      {/* <h1>Check for Spam</h1>
     </div>
     <div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -101,7 +101,20 @@ function Form() {
         </div>
       </form>
       <div className="submit">
-        <button style={{color: "white"}} onClick={tProcess}>SUBMIT</button>
+        <button style={{color: "white"}} onClick={tProcess}>SUBMIT</button> */}
+        <h1>Check for Spam</h1>
+        <div className="checkSpam">
+          <div className="checkContent">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <br />
+            <form>
+              <input type="text" id="name" name="name" placeholder="Sender ID"/><br/><br />
+              <textarea id="message" name="message" rows="6" cols="50" placeholder="SMS"></textarea><br/>
+              <button type="submit" className="submitSpamButton">Submit</button>
+            </form>
+          </div>
+          <div className="checkHelp"></div>
+        </div>
       </div>
     </>
   );

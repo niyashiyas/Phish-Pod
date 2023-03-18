@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap');
+.checkSpam {
+  display: flex;
+}
+.checkContent {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  background-color: "#EDF2F4";
+  color: aliceblue;
+  opacity: 0.8;
+}
 
-.page-2{
-    height:100vh;
-}
-.sms-id{
-    margin-left:30px;
-    margin-top:30px;
-    font-family: 'Poppins';
-}
-.sms{
-    margin-left:50px;
-    margin-top:10px; 
-    font-family: 'Poppins';
-}
-.submit{
-    margin-left:50px;
-    margin-top:10px;
-    color: white;
-    font-family: 'Poppins';
+.submitSpamButton {
+  color: white;
+  background: #027373;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-weight: 500;
 }
