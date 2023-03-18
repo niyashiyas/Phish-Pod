@@ -62,7 +62,7 @@ function Form() {
     //URL
     axios
       .get(
-        `https://endpoint.apivoid.com/urlrep/v1/pay-as-you-go/?key=7ee7e77ff7940a5058c538c320e7992c8c29abd2&url=${up[0]}/`
+        `https://endpoint.apivoid.com/urlrep/v1/pay-as-you-go/?key=33a00c5f1da6b69b4527756477f44402105aa337&url=${up[0]}/`
       )
       .then((r) => {
         console.log(r);
@@ -76,16 +76,23 @@ function Form() {
 
   return (
     <>
+    <div>
+      <h1>Check for Spam</h1>
+    </div>
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
       <form>
         <div className="container">
           <div className="sms-id">
             <input type="text" placeholder="SMS sender ID"></input>
           </div>
           <div className="sms">
-            <textarea
+            <textarea style={{color: "white"}}
               rows="15"
               columns="75"
               placeholder="Enter your message"
+              
               onChange={(e) => {
                 setFormData(e.target.value);
               }}
@@ -94,7 +101,7 @@ function Form() {
         </div>
       </form>
       <div className="submit">
-        <button onClick={tProcess}>SUBMIT</button>
+        <button style={{color: "white"}} onClick={tProcess}>SUBMIT</button>
       </div>
     </>
   );
