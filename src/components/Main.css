@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap');
 .page-1{
     height:68vh;
-    background-color:rgb(20, 23, 20);
-    
+    background-color:#011126;  
+}
+div{
+    background-color:#011126;
+}
+h1{
+    background-color:#011126;
+}
+p{
+    background-color:#011126;
 }
 .main-content{
+    background-color:#011126;
     font-family:'Poppins';
     margin-left:200px;
     margin-top:100px;
@@ -15,7 +24,7 @@
 .get-started{
     font-family:'Poppins';
     margin-left:200px;
-    margin-top:0px;
+    margin-top:-5px;
     width:150px;
     height:50px;
     background-color: rgb(9, 88, 9);
@@ -32,15 +41,17 @@
     color:rgb(9, 88, 9);
     
 }
-img{
-    width:250px;
-    height:250px;
-    margin-right:200px;
-    
+.mainpic{
+    width:300px;
+    height:400px;
+    margin-top:-100px;
+    margin-right:200px;  
 }
 
 
-.page-2{
-    height:100vh;
+
+
+/* .page-2{
+    height:100vh;                     
     background-color:beige;
-}
+} */

@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import './Main.css'
 import Form from './Form';
+import Footer from './Footer/Footer';
+
 function Main(){
   return(
     <>
@@ -17,17 +19,18 @@ function Main(){
               <p>and here</p>
             </div>
           </div>
-          <img src='./images/landing.png' alt='' />
+          
+          {/* <img src='./images/blob.png' alt='' className='blob' /> */}
+          <img src='./images/mainpic.png' alt='' className='mainpic' /> 
         </div>
-        <button className="get-started" href=".page-2">GET STARTED</button>
+        <button className="get-started">GET STARTED</button>
       </div>
       <Form />
-
+      <Footer />
       
             
       
     </>
-
   );
 }
 export default Main;
