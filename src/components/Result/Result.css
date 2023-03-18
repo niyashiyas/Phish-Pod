@@ -1,0 +1,23 @@
+.resultsBox {
+  color: white;
+}
+.resultsContent {
+  padding: 30px 0px;
+  background-color: rgba(237, 242, 244, 0.058);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+
+}
+.reportButton {
+  color: #011c40;
+  font-weight: 600;
+  background: #ff6161;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 8px 16px;
+}

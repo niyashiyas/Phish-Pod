@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "./Main.css";
 import Form from "./Form";
 import Footer from "./Footer/Footer";
+import Result from './Result/Result';
 function Main() {
   return (
     <>
@@ -26,6 +27,7 @@ function Main() {
       </div>
       <Form />
       <Footer />
+      <Result num="10"/>
     </>
   );
 }

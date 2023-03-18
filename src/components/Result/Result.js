@@ -1,18 +1,20 @@
 import React from 'react';
-import Navbar from 'Navbar.js';
+import Navbar from '../Navbar';
+import './Result.css';
 
-const Result = () => {
+const Result = (props) => {
   return (
     <div>
-      <Navbar />
-      <div>
+      <div className='resultsBox'>
         <h1>Results</h1>
-        <div>
-            <img src=''></img>
+        <div className='resultsContent'>
+            <img src = './images/results-img.png'></img>
+            <p>This message has been reported spam by {props.num} people!</p>
+            <button className='reportButton'>Report Now!</button>
         </div>
       </div>
     </div>
   )
 }
 
-export default Result
+export default Result;
