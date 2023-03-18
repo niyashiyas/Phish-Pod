@@ -4,7 +4,7 @@ function Navbar() {
   return (
    <>
     <nav className="navbar">
-        <h2 className="spamify">spamify</h2>
+        <h2 className="phishpod">phishpod</h2>
         <ul className="hg">
           <li>home</li>
           <li>glossary</li>
