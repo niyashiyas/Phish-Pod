@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='footerBox'>
       <div className='footerAbout'>
-        <a href='#'>Phish-Pod</a>
+        <a href='#' id='main-tag'>Phish-Pod</a>
         <div className='p-footer'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></div>
         <button className='footerButton'><a href='#'>Get Started!</a></button>
       </div>
