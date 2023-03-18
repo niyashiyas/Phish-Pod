@@ -6,8 +6,8 @@ function Navbar() {
       <nav className="navbar">
         <h2 className="phishpod">phishpod</h2>
         <ul className="hg">
-          <li>home</li>
-          <li>glossary</li>
+          <li>Home</li>
+          <li>Glossary</li>
         </ul>
       </nav>
     </>

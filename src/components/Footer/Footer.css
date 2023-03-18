@@ -4,11 +4,14 @@
   border-radius: 20px;
   color: white;
   display: flex;
-  justify-content: flex-start; 
+  justify-content: space-between; 
   align-content: end;
   padding: 2.5rem;
   font-family: 'Poppins';
-}.footerAbout {
+  
+}
+.footerAbout {
+  width: 55%;
   display: flex;
   flex-direction: column;
   margin: 0 20px;
@@ -40,6 +43,7 @@ a{
   align-items: center;
 }
 .footerSocials{
+  margin-right: 50px;
   width: 20%;
   display: flex;
   flex-direction: row;
