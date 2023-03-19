@@ -50,7 +50,7 @@ export default function Glossary() {
               .map((card, i) => (
                 <div key={i} className="card">
                   <h3>{card.title}</h3>
-                  <p>{card.data}</p>
+                  <p className="glossary-p">{card.data}</p>
                 </div>
               ))}
           </div>

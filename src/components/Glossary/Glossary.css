@@ -52,7 +52,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-p {
+.glosaary-p {
   border-radius: 5px;
   color: black;
 }
