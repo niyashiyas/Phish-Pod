@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap');
 
 .footerBox {
+  margin: 50px 0;
+  background: rgba(237, 242, 244, 0.058);
   border-radius: 20px;
   color: white;
   display: flex;
@@ -14,6 +16,7 @@
   display: flex;
   flex-direction: column;
   width: 33%;
+  background: transparent;
 }
 #main-tag{
   color: #11d9c5;
@@ -22,10 +25,12 @@ font-size: 48px;
 }
 .p-footer{
   width: 80%;
+  background: transparent;
 }
 a{
   text-decoration: none;
   color: white;
+  background: transparent;
 }
 .footerButton{
   width: 45%;
@@ -37,9 +42,10 @@ a{
 }
 .footerButton a{
   background: linear-gradient(258.88deg, #11d9c5 5.48%, #027373 69.85%);
-
+  background: transparent;
 }
 .footerLinks{
+  background: transparent;
   display: flex;
   flex-direction: row;
   width: 33%;
@@ -47,11 +53,27 @@ a{
   align-items: center;
 }
 .footerSocials{
+  background: transparent;
   display: flex;
   flex-direction: row;
   width: 33%;
   justify-content: space-around;
   align-items: center;
-  
 }
- 
+.footerSocials a{
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding: 20px 30px;
+}
+.fa-inverse{
+  background: transparent;
+}
+#fb{
+  background: linear-gradient(197.71deg, #243FE1 6.64%, #2F53E5 20.96%, #4C87ED 50.31%, #7BDAFB 91.77%, #84EAFE 99.8%);
+}
+#ig{
+  background: linear-gradient(202.41deg, #3A55D2 10.2%, #4651D5 21.3%, #6548DE 41.17%, #FF007A 95.07%);
+}
+#gh{
+  background: linear-gradient(197.71deg, #243FE1 6.64%, #2F53E5 20.96%, #4C87ED 50.31%, #7BDAFB 91.77%, #84EAFE 99.8%);
+}
