@@ -83,7 +83,7 @@ function Form() {
   return (
     <>
       <div>
-        <h1>Check for Spam</h1>
+        <h1 style={{color: "white", fontSize: "36px"}}>Check for Spam</h1>
         <div className="checkSpam">
           <div className="checkContent">
             <p>
@@ -106,7 +106,7 @@ function Form() {
                 id="message"
                 name="message"
                 rows="6"
-                cols="120"
+                cols="90"
                 placeholder="SMS"
                 onChange={(e) => {
                   setFormData(e.target.value);
