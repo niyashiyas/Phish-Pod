@@ -24,6 +24,6 @@ Our Vision:
 ## Team Members
 ### **Team Name** : Team 200
 1. [Adithya V](https://github.com/a-dtya)
-2. [Niya Shiyas](https://github.com/)
+2. [Niya Shiyas](https://github.com/niyashiyas)
 3. [Alaka A J](https://github.com/alaka03aj)
-4. [Rahul Anup Verma](https://github.com/)
+4. [Rahul Anup Verma](https://github.com/RAHULANUP)
