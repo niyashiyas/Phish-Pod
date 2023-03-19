@@ -1,14 +1,20 @@
 .checkSpam {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px;
 }
 .checkContent {
   display: flex;
   flex-direction: column;
+  max-width: 60%;
+  margin-right: 20px;
 }
-input,
+input[type="text"],
 textarea {
   background-color: "#EDF2F4";
   color: aliceblue;
+  border: 3px solid #011C40;
   opacity: 0.8;
 }
 
@@ -18,4 +24,35 @@ textarea {
   border-radius: 5px;
   padding: 8px 16px;
   font-weight: 500;
+}
+
+.checkHelp h4 {
+  color: white;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.checkHelp {
+  background: rgba(237, 242, 244, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step1, .step2, .step3{
+  border-radius: 3px;
+  color: black;
+  margin: 16px;
+  align-items: center;
+  width: 90%;
+  padding: 8px 16px;
+  background-color: white;
+}
+.step1 p, .step2 p, .step3 p{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
 }

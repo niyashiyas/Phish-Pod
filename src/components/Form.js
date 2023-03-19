@@ -83,31 +83,6 @@ function Form() {
   return (
     <>
       <div>
-        {/* <h1>Check for Spam</h1>
-    </div>
-    <div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-      <form>
-        <div className="container">
-          <div className="sms-id">
-            <input type="text" placeholder="SMS sender ID"></input>
-          </div>
-          <div className="sms">
-            <textarea style={{color: "white"}}
-              rows="15"
-              columns="75"
-              placeholder="Enter your message"
-              
-              onChange={(e) => {
-                setFormData(e.target.value);
-              }}
-            ></textarea>
-          </div>
-        </div>
-      </form>
-      <div className="submit">
-        <button style={{color: "white"}} onClick={tProcess}>SUBMIT</button> */}
         <h1>Check for Spam</h1>
         <div className="checkSpam">
           <div className="checkContent">
@@ -131,7 +106,7 @@ function Form() {
                 id="message"
                 name="message"
                 rows="6"
-                cols="50"
+                cols="120"
                 placeholder="SMS"
                 onChange={(e) => {
                   setFormData(e.target.value);
@@ -147,7 +122,13 @@ function Form() {
               Submit
             </button>
           </div>
-          <div className="checkHelp"></div>
+          <div className="checkHelp">
+            <br />
+             <h4>Steps to Check for Spam</h4>
+             <div className="step1"><p>Enter Sender ID and SMS in the respective boxes.</p></div>   
+             <div className="step2"><p>Click on 'Search'.</p></div>   
+             <div className="step3"><p>Result will be displayed showing if it is spam or not. You have an option to report the SMS to Indian Cyber Crime Coordination Centre</p></div>   
+          </div>
         </div>
       </div>
     </>
