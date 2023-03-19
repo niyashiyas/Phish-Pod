@@ -26,6 +26,7 @@ font-size: 48px;
 .p-footer{
   width: 80%;
   background: transparent;
+  margin-bottom: 10px;
 }
 a{
   text-decoration: none;
