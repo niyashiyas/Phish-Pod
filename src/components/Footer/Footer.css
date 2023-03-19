@@ -26,6 +26,7 @@ font-size: 48px;
 .p-footer{
   width: 80%;
   background: transparent;
+  margin-bottom: 10px;
 }
 a{
   text-decoration: none;
@@ -76,4 +77,30 @@ a{
 }
 #gh{
   background: linear-gradient(197.71deg, #243FE1 6.64%, #2F53E5 20.96%, #4C87ED 50.31%, #7BDAFB 91.77%, #84EAFE 99.8%);
+}
+
+/* Responsiveness */
+@media (max-width: 900px){
+  .footerLinks{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footerSocials{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footerSocials a{
+    padding: 8px 16px;
+    margin: 3px 0;
+  }
+  .footerAbout div, .footerAbout button{
+    display: none;
+  }
+  #main-tag{
+    font-size: 24px;
+  }
+  .footerAbout{
+    align-items: center;
+    justify-content: center;
+  }
 }

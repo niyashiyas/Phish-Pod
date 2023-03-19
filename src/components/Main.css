@@ -32,10 +32,10 @@ div {
   margin-top: 35px;
   width: 170px;
   height: 70px;
-  background-color: rgb(9, 88, 9);
+  background: radial-gradient(100.94% 1022.79% at 100% 2.36%, #122C6F 0%, #11D9C5 49%, rgba(18, 44, 111, 0.97) 97.83%);
   color: white;
-  border-color: rgb(9, 88, 9);
-  border-radius: 5px;
+  border-color: #11D9C5;
+  border-radius: 8px;
   letter-spacing: 0.1em;
   transition: 0.5s;
 }
@@ -43,7 +43,7 @@ div {
   width: 160px;
   height: 65px;
   background-color: white;
-  color: rgb(9, 88, 9);
+  color: rgb(0, 0, 0);
 }
 .mainpic {
   width: 42%;
