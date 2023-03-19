@@ -88,6 +88,10 @@ a{
     flex-direction: column;
     justify-content: space-evenly;
   }
+  .footerSocials a{
+    padding: 8px 16px;
+    margin: 3px 0;
+  }
   .footerAbout div, .footerAbout button{
     display: none;
   }
