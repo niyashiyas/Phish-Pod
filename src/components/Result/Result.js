@@ -6,7 +6,7 @@ const Result = (props) => {
   return (
     <div>
       <div className='resultsBox'>
-        <h1 style={{fontSize: "36px"}}>Results</h1>
+        <h1 style={{fontSize: "42px"}}>Results</h1>
         <br/>
         <div className='resultsContent'>
             <img src = './images/results-img.png'></img>

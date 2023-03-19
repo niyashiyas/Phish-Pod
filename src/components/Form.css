@@ -10,6 +10,9 @@
   max-width: 60%;
   margin-right: 20px;
 }
+.checkContent p{
+  color: white;
+}
 input[type="text"],
 textarea {
   background-color: "#EDF2F4";
