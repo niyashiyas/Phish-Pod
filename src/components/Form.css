@@ -18,7 +18,12 @@ textarea {
   background-color: "#EDF2F4";
   color: aliceblue;
   border: 3px solid #011C40;
+  padding: 10px;
   opacity: 0.8;
+}
+
+textarea{
+  width: 100%;
 }
 
 .submitSpamButton {
@@ -58,4 +63,18 @@ textarea {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-align: center;
+}
+
+@media (max-width: 750px){
+  .checkSpam{
+    flex-direction: row;
+    justify-content: flex-start;
+
+  }
+  .checkHelp{
+    display: none;
+  }
+  .checkContent{
+    width: 100%;
+  }
 }
