@@ -18,7 +18,9 @@ Figma File: [Figma File](https://www.figma.com/file/prcpBFykjXDjCwjejdxTQo/Versi
 
 ## Project Description
 
-Our Vision: 
+Our Vision: <br>
+Smishing (SMS Based Phishing) is the most targeted cybercrime with high rate of success due to difficulty in determing the authenticity of a text message. We provide a web based application that allows users to easily verify the authenticity of suspicious text messages they recieve.<br>
+Phish-Pod checks the various components of the message and gives the user a comprehensive result on whether their message is found malicious or not<br>
 
 
 ## Team Members
