@@ -2,7 +2,7 @@ import React from "react";
 import "./Main.css";
 import Form from "./Form";
 import Footer from "./Footer/Footer";
-// import Result from "./Result/Result";
+import Result from "./Result/Result";
 function Main() {
   return (
     <>
@@ -27,6 +27,7 @@ function Main() {
         </div>
       </div>
       <Form />
+
       <Footer />
     </>
   );
