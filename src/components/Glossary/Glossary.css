@@ -54,7 +54,7 @@ section {
 }
 p {
   border-radius: 5px;
-  color: white;
+  color: black;
 }
 h3 {
   background-color: white;
@@ -86,7 +86,7 @@ h3 {
   transition: 0.4s;
 } */
 .card:hover {
-  transform: scale(1.02);
+  transform: scale(1.04);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 /*
@@ -109,19 +109,19 @@ h3 {
 
 .search-bar {
   position: relative;
-  margin-left: 505px;
+  margin-left: 500px;
   margin-bottom: 30px;
-  width: 25px;
-  height: 25px;
+  width: 700px;
+  height: 50px;
   display: flex;
-  justify-content: left;
+  /* justify-content: center; */
 }
 
 .search {
   padding: 0.5rem;
   font-size: 1rem;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 25px;
   outline: none;
   color: white;
   background-color: #505050;
