@@ -1,54 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap');
-.page-1{
-    background-color:#011126;  
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap");
+.page-1 {
+  background-color: #011126;
 }
-div{
-    background-color:#011126;
+div {
+  background-color: #011126;
 }
-h1{
-    background-color:#011126;
+.main-heading {
+  font-family: "Poppins", sans-serif;
+  margin-top: 45px;
+  background-color: #011126;
+  font-size: 3.6rem;
+  /* text-align: center; */
+  margin-bottom: 35px;
 }
-p{
-    background-color:#011126;
+.main-p {
+  background-color: #011126;
+  margin-bottom: 0px;
 }
-.main-content{
-    background-color:#011126;
-    font-family:'Poppins';
-    margin-left:200px;
-    margin-top:100px;
-    display:flex;
-    justify-content:space-between;
-    color:white;
+.main-content {
+  background-color: #011126;
+  font-family: "Poppins";
+  margin-left: 200px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
-.get-started{
-    font-family:'Poppins';
-    margin-left:200px;
-    margin-top:-5px;
-    width:150px;
-    height:50px;
-    background-color: rgb(9, 88, 9);
-    color:white;
-    border-color: rgb(9, 88, 9);
-    border-radius: 5px; 
-    letter-spacing: 0.1em;
-    transition:0.5s;
+.get-started {
+  font-family: "Poppins";
+  /* margin-left: 200px; */
+  margin-top: 35px;
+  width: 170px;
+  height: 70px;
+  background-color: rgb(9, 88, 9);
+  color: white;
+  border-color: rgb(9, 88, 9);
+  border-radius: 5px;
+  letter-spacing: 0.1em;
+  transition: 0.5s;
 }
-.get-started:hover{
-    width:160px;
-    height:65px;
-    background-color: white;
-    color:rgb(9, 88, 9);
-    
+.get-started:hover {
+  width: 160px;
+  height: 65px;
+  background-color: white;
+  color: rgb(9, 88, 9);
 }
-.mainpic{
-    width:300px;
-    height:400px;
-    margin-top:-100px;
-    margin-right:200px;  
+.mainpic {
+  width: 42%;
+  height: 42%;
+  margin-top: -65px;
+  margin-right: 130px;
 }
-
-
-
 
 /* .page-2{
     height:100vh;                     
