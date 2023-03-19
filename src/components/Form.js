@@ -125,10 +125,7 @@ function Form() {
       <div className="checkSpam">
         <div className="checkContent">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          Our SMS Fraud Checking website is secure, reliable, and easy to use. Sign up today to start protecting yourself from SMS fraud and stay one step ahead of the scammers.
           </p>
           <br />
           <form>

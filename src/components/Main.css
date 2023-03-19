@@ -3,6 +3,7 @@
   background-color: #011126;
 }
 .main-heading {
+  max-width: 500px;
   font-family: "Poppins", sans-serif;
   margin-top: 45px;
   font-size: 3.6rem;
@@ -17,6 +18,7 @@
   font-family: "Poppins";
   margin: 40px 20px;
   padding: 0px 100px;
+  padding-left: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
