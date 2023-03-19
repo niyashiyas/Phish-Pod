@@ -6,7 +6,8 @@ const Result = (props) => {
   return (
     <div>
       <div className='resultsBox'>
-        <h1>Results</h1>
+        <h1 style={{fontSize: "36px"}}>Results</h1>
+        <br/>
         <div className='resultsContent'>
             <img src = './images/results-img.png'></img>
             <p>This message has been reported spam by {props.num} people!</p>

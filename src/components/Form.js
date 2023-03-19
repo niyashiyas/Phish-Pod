@@ -83,7 +83,7 @@ function Form() {
   return (
     <>
       <div>
-        <h1>Check for Spam</h1>
+        <h1 style={{color: "white", fontSize: "36px"}}>Check for Spam</h1>
         <div className="checkSpam">
           <div className="checkContent">
             <p>
