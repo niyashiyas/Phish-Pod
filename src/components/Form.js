@@ -16,6 +16,7 @@ var ud = "";
 
 function Form() {
   const [formData, setFormData] = useState("");
+  const [result, setResult] = useState("");
   const [showButton, setShowButton] = useState(false);
   const [routeButton, setRouteButton] = useState(false);
   const emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g;
@@ -23,9 +24,9 @@ function Form() {
     /https?:\/\/(www\.)?[-a-zA-Z0-9@:%.\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%\+.~#?&//=]*)/g;
   const phonePattern = /(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}/g;
 
-  var ep;
-  var up;
-  let pp;
+  var ep = [{}];
+  var up = [{}];
+  let pp = [{}];
 
   const tProcess = async () => {
     let object = formData;
@@ -42,6 +43,9 @@ function Form() {
     console.log("Email : " + ep);
     //setResult(`${ep}`);
     //console.log(result);
+
+    setResult(pp);
+    console.log("results");
 
     await axios
       .get(
@@ -116,7 +120,6 @@ function Form() {
 
   return (
     <>
-      {console.log("de: " + de)}
       <h1 style={{color: "white", fontSize: "36px"}}>Check for Spam</h1>
       <div className="checkSpam">
         <div className="checkContent">
@@ -174,10 +177,13 @@ function Form() {
           </div>
         </div>
       </div>
-
       <div>
+        {console.log(nv + " phone : " + pp)}
         {routeButton ? (
           <Result
+            // phone={phone}
+            // ep={ep[0]}
+            // up={up[0]}
             de={de}
             se={se}
             em={em}

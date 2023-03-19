@@ -3,6 +3,7 @@ import "./Main.css";
 import Form from "./Form";
 import Footer from "./Footer/Footer";
 import Result from "./Result/Result";
+import {Link, Routes, Route} from "react-router-dom";
 function Main() {
   return (
     <>
@@ -21,11 +22,20 @@ function Main() {
             </div>
             <button className="get-started">GET STARTED</button>
           </div>
+          {/* </div>
+            <Link to="/form">
+              <button className="get-started">GET STARTED</button>
+            </Link>
+            <Routes>
+        <Route path="/form" element={<Form />}></Route>
+      </Routes>
+          </div> */}
 
           {/* <img src='./images/blob.png' alt='' className='blob' /> */}
           <img src="./images/mainpic.png" alt="" className="mainpic" />
         </div>
       </div>
+
       <Form />
 
       <Footer />
