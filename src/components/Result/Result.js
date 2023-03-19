@@ -9,11 +9,10 @@ const Result = ({de, se, em, ca, nv, mb, ur, urd, du, ud}) => {
         <h1 style={{fontSize: "42px"}}>Results</h1>
         <br />
         <div className="resultsContent">
-          <img src="./images/results-img.png"></img>
-          {/* <p>This message has been reported spam by {props.num} people!</p> */}
+          <img className="image-result" src="./images/results-img.png"></img>
           {console.log(de, se, em, ca, nv, mb, ur, urd, du, ud)}
-          <div>
-            {/* <h6>Phone Number : {phone}</h6> */}
+          <div className="final-result">
+            {/* <h6>Phone Number : {pp}</h6> */}
             {/* <h6>Email Id : {ep}</h6>
             <h6>URL : {up}</h6> */}
             <h6>Disposable Email : {de}</h6>

@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
 }
-img{
+img {
   fill: none;
   background-color: transparent;
 }
@@ -22,7 +22,12 @@ img{
   border-radius: 5px;
   padding: 8px 16px;
 }
-.resultsContent a, p{
+.resultsContent a,
+p {
   background-color: transparent;
   margin-bottom: 15px;
+}
+.final-result {
+  background-color: #ffffff;
+  color: white;
 }

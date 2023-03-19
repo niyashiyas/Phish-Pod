@@ -90,7 +90,7 @@ function Form() {
     //URL
     await axios
       .get(
-        `https://endpoint.apivoid.com/urlrep/v1/pay-as-you-go/?key=33a00c5f1da6b69b4527756477f44402105aa337&url=${up[0]}/`
+        `https://endpoint.apivoid.com/urlrep/v1/pay-as-you-go/?key=83e829dbb8cdb1e6f9c306e114bb860b6172d606&url=${up[0]}/`
       )
       .then((r) => {
         console.log(r);
@@ -155,7 +155,12 @@ function Form() {
           </button>
           <div>
             {showButton && (
-              <button onClick={() => setRouteButton(true)}>Check Result</button>
+              <button
+                className="result-button"
+                onClick={() => setRouteButton(true)}
+              >
+                Check Result
+              </button>
             )}
           </div>
         </div>
