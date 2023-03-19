@@ -50,7 +50,7 @@ section {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .glosaary-p {
   border-radius: 5px;
@@ -61,7 +61,8 @@ h3 {
 }
 .card {
   position: relative;
-  flex: 0 0 calc(33.33% - 20px);
+  display: flex;
+  flex-direction: column;
   max-width: calc(33.33% - 20px);
   width: 100%;
   background: #fff;
@@ -108,13 +109,9 @@ h3 {
 } */
 
 .search-bar {
-  position: relative;
-  margin-left: 500px;
-  margin-bottom: 30px;
-  width: 700px;
-  height: 50px;
   display: flex;
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
 }
 
 .search {
@@ -129,4 +126,15 @@ h3 {
 
 .search:focus {
   border-color: #505050;
+}
+
+@media (max-width: 700px){
+  .cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    max-width: 400px;
+  }
 }
