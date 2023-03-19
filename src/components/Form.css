@@ -80,8 +80,9 @@ textarea {
 
 @media (max-width: 750px) {
   .checkSpam {
+    width: 100%;
     flex-direction: row;
-    justify-content: flex-start;
+    margin: 10px 0px;
   }
   .checkHelp {
     display: none;

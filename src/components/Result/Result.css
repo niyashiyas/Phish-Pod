@@ -21,13 +21,17 @@ img {
   border: 2px solid #ffffff;
   border-radius: 5px;
   padding: 8px 16px;
+  margin-top: 10px;
 }
 .resultsContent a,
 p {
-  background-color: transparent;
+  background: transparent;
   margin-bottom: 15px;
 }
-.final-result {
+.final-result , .final-result h6{
   background-color: #ffffff;
   color: white;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
 }
