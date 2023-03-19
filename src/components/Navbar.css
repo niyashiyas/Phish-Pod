@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap');
-*{
-    background-color:#011126;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu:ital,wght@1,700&display=swap");
+* {
+  background-color: #011126;
 }
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    padding:10px;
-    font-family: 'Poppins';
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  padding-left: 8px;
+  font-family: "Poppins";
 }
-.hg{
-    list-style:none;
-    display:flex;
-    justify-content:space-between;
-    color:white;
+.hg {
+  list-style: none;
+  display: flex;
+  justify-content: 10px;
+  color: white;
 }
-.hg li{
-    margin:5px;
+.hg li {
+  margin: 7px;
+  margin-right: 15px;
+  font-size: 18px;
 }
-.phishpod{
-    color:#11D9C5;
+.phishpod {
+  color: #11d9c5;
+  font-size: 1.6rem;
 }

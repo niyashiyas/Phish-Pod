@@ -1,18 +1,18 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <h2 className="phishpod">phishpod</h2>
+        <h2 className="phishpod">PhishPod</h2>
         <ul className="hg">
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/glossary">Glossary</Link>
-          </li>    
+          </li>
         </ul>
       </nav>
     </>
@@ -20,8 +20,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
-
-
-
