@@ -22,3 +22,7 @@ img{
   border-radius: 5px;
   padding: 8px 16px;
 }
+.resultsContent a, p{
+  background-color: transparent;
+  margin-bottom: 15px;
+}
