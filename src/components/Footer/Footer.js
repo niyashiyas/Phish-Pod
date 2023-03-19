@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footerBox'>
       <div className='footerAbout'>
         <a href='#' id='main-tag'>Phish-Pod</a>
-        <div className='p-footer'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></div>
+        <div className='p-footer'><p>Protect yourself from SMS scams!</p></div>
         <button className='footerButton'><a href='#'>Get Started!</a></button>
       </div>
       <div className='footerLinks'>
