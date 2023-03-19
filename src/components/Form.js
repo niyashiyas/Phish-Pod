@@ -106,7 +106,7 @@ function Form() {
                 id="message"
                 name="message"
                 rows="6"
-                cols="120"
+                cols="90"
                 placeholder="SMS"
                 onChange={(e) => {
                   setFormData(e.target.value);
