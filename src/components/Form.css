@@ -14,8 +14,9 @@ input[type="text"],
 textarea {
   background-color: "#EDF2F4";
   color: aliceblue;
-  border: 3px solid #011C40;
+  border: 3px solid #011c40;
   opacity: 0.8;
+  padding: 10px;
 }
 
 .submitSpamButton {
@@ -42,7 +43,9 @@ textarea {
   align-items: center;
 }
 
-.step1, .step2, .step3{
+.step1,
+.step2,
+.step3 {
   border-radius: 3px;
   color: black;
   margin: 16px;
@@ -51,7 +54,9 @@ textarea {
   padding: 8px 16px;
   background-color: white;
 }
-.step1 p, .step2 p, .step3 p{
+.step1 p,
+.step2 p,
+.step3 p {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-align: center;
