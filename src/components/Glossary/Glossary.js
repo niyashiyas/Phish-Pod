@@ -1,6 +1,7 @@
 import React from "react";
 import {useState} from "react";
 import "./Glossary.css";
+import Footer from "./../Footer/Footer.js";
 export default function Glossary() {
   const [cards] = useState([
     {
@@ -56,6 +57,7 @@ export default function Glossary() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
