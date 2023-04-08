@@ -27,6 +27,9 @@ export default function Glossary() {
     {
       title: "Clickjacking",
       data: "It's like if someone put a picture of a toy on top of a button that said Buy Now, and you accidentally clicked the button when you really just wanted to look at the toy",
+    },{
+      title: "Spam",
+      data: "Refers to sending messages advertising or publicizing products, services etc."
     },
   ]);
   const [query, setQuery] = useState("");
