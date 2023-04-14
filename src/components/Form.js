@@ -74,7 +74,7 @@ function Form() {
     //PHONE NUMBER
     await axios
       .get(
-        `https://api.numlookupapi.com/v1/validate/+91${pp[0]}?apikey=KhTyAyKtRpuCisqx7mrLZ2N7hCz7FGi0rSOC6pHI`
+        `https://api.numlookupapi.com/v1/validate/+91${pp[0]}?apikey=2qRYRu8XokAiUugbnyQeyiRPSn0aWKnDLLlIJUK9`
       )
       .then((res) => {
         console.log(res);
