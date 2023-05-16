@@ -25,7 +25,7 @@ const Result = ({de, se, em, ca, nv, mb, ur, urd, du, ud}) => {
             <h6>Site Status : {urd}</h6>
             <h6>Malicious URL Detection : {du}</h6>
             <h6>URL Redirection : {ud ? "true" : "false"}</h6>
-          </div>
+          
           <button className="reportButton">
             <a
               href="https://cybercrime.gov.in/Webform/Crime_AuthoLogin.aspx"
@@ -34,6 +34,7 @@ const Result = ({de, se, em, ca, nv, mb, ur, urd, du, ud}) => {
               Report Now!
             </a>
           </button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,13 +1,16 @@
 .resultsBox {
   color: white;
 }
+.resultsBox h1{
+  text-align: center;
+  margin-top: 2rem;
+}
 .resultsContent {
   padding: 30px 0px;
   background-color: rgba(237, 242, 244, 0.058);
   border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 img {
@@ -16,12 +19,13 @@ img {
 }
 .reportButton {
   color: #011c40;
+  font-size: 1.8rem;
   font-weight: 600;
-  background: #ff6161;
+  background: #d32d41;
   border: 2px solid #ffffff;
   border-radius: 5px;
-  padding: 8px 16px;
-  margin-top: 10px;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
 }
 .resultsContent a,
 p {
@@ -34,4 +38,13 @@ p {
   background: transparent;
   align-items: center;
   justify-content: center;
+}
+.final-result h6{
+  font-size: 24px;
+}
+
+@media  screen and (max-width: 800px) {
+  .resultsContent{
+    flex-direction: column;
+  }
 }
