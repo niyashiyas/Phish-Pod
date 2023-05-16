@@ -42,9 +42,21 @@ p {
 .final-result h6{
   font-size: 24px;
 }
+.reportButtonCenter{
+  background-color: rgba(237, 242, 244, 0.009);
+}
 
 @media  screen and (max-width: 800px) {
   .resultsContent{
     flex-direction: column;
+    padding: 0px 50px;
+    padding-bottom: 3rem;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .reportButtonCenter{
+    display: flex;
+    background-color: rgba(237, 242, 244, 0.009);
+    justify-content: center;
   }
 }

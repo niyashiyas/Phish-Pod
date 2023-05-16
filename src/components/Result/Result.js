@@ -26,14 +26,14 @@ const Result = ({de, se, em, ca, nv, mb, ur, urd, du, ud}) => {
             <h6>Malicious URL Detection : {du}</h6>
             <h6>URL Redirection : {ud ? "true" : "false"}</h6>
           
-          <button className="reportButton">
+          <div className="reportButtonCenter"><button className="reportButton">
             <a
               href="https://cybercrime.gov.in/Webform/Crime_AuthoLogin.aspx"
               target={"_blank"}
             >
               Report Now!
             </a>
-          </button>
+          </button></div>
           </div>
         </div>
       </div>

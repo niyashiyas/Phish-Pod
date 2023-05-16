@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Form from './components/Form';
 import Glossary from './components/Glossary/Glossary';
-import Result from './components/Result/Result'
 function App() {
   return (
     <>
@@ -18,7 +17,7 @@ function App() {
             <>
             <Navbar/>
           <Glossary/>
-          <Result /></>
+          </>
           
             
           } />
